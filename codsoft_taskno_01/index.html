@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio </title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Navbar Section -->
+    <nav class="bg-blue-500 text-white shadow-md fixed w-full z-10 top-0 left-0">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Sourajeet</h1>
+            <ul class="flex space-x-6">
+                <li><a href="#about" class="hover:text-teal-200">About Me</a></li>
+                <li><a href="#work" class="hover:text-teal-200">Work Experience</a></li>
+                <li><a href="#achievements" class="hover:text-teal-200">Achievements</a></li>
+                <li><a href="#projects" class="hover:text-teal-200">Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-gradient-to-r from-blue-500 to-teal-500 text-white text-center py-32 mt-20">
+        <h1 class="text-4xl font-bold">Hi, I'm Sourajeet</h1>
+        <p class="text-xl mt-4">Web Developer & Engineering Student</p>
+        <div class="flex items-center justify-center m-5">
+        <img src="img/pic.png" alt="profile picture" class="rounded w-60 h-60">
+    </div>  
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-16 px-8">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold text-blue-600">About Me</h2>
+            <p class="mt-4 text-lg text-gray-700 max-w-3xl mx-auto">
+                Hi, I'm Sourajeet, a web developer and third-year engineering student passionate about creating engaging web experiences. 
+                With skills in HTML, CSS, JavaScript, and frameworks like React, I love turning ideas into functional and visually appealing designs. 
+                My journey started with a simple curiosity about coding, and today, I’m on a mission to make the web a more intuitive place.
+                I’m always excited to collaborate on innovative projects. Let’s connect and create something amazing together!
+            </p>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="work" class="bg-gray-100 py-16 px-8">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold text-blue-600">Work Experience</h2>
+            <div class="mt-8">
+                <h3 class="text-xl font-semibold"> Intern | ApexPlanet SOftware</h3>
+                <p class="text-gray-600 mt-2"> Ongoing </p>
+                <p class="mt-4 text-lg text-gray-700 max-w-2xl mx-auto">
+                    Designed and developed user interfaces using HTML, CSS, and JavaScript.<br>
+                    Collaborated with the team to create wireframes and prototypes, enhancing user experience (UI/UX).<br>
+                    Gained experience in task delegation, team management, and maintaining motivation throughout the project lifecycle.
+                </p>
+            </div>
+
+            <div class="mt-16">
+                <h3 class="text-xl font-semibold">Positions of Responsibility</h3>
+                <p class="text-gray-600 mt-2"> Volunteer | NSS TCET</p>
+                <p class="mt-4 text-lg text-gray-700 max-w-2xl mx-auto">
+                    - Volunteered for many projects helping the society to grow.<br>
+                    
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="py-16 px-8">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold text-blue-600">Achievements</h2>
+            <div class="mt-8">
+                <h3 class="text-xl font-semibold">NIL</h3>
+                <p class="text-gray-600 mt-2">2024</p>
+                <p class="mt-4 text-lg text-gray-700 max-w-2xl mx-auto">
+                    Failure
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-gray-100 py-16 px-8">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold text-blue-600">Projects</h2>
+            <div class="mt-8">
+                <h3 class="text-xl font-semibold">Gesture-Based Volume Control System</h3>
+                <p class="text-gray-600 mt-2">HCI project</p>
+                <p class="mt-4 text-lg text-gray-700 max-w-2xl mx-auto">
+                    This project demonstrates a basic Human-Computer Interaction (HCI) application that uses hand gestures to control the system's audio volume. By leveraging computer vision and hand-tracking technology, this project showcases how intuitive gestures can replace traditional input devices.
+                    
+                    <br>
+                    <br>
+                    <b> Camera Check: </b>
+
+                    Ensures the system's camera can capture video frames.
+                    Provides a preview of the camera feed. 
+                    <br>
+                    <br>
+                    <b>Hand Tracking Module:</b>
+                    
+                    Detects hands and their landmarks in real-time using MediaPipe.
+                    Identifies hand gestures and calculates distances between landmarks.
+                     <br>
+                     <br>
+                    <b>Gesture-Based Volume Control:</b>
+                    
+                    Adjusts system volume based on the distance between the thumb and index finger (confirmation gesture).
+                    Provides a visual representation of the current volume level on the screen.
+                    <br>
+                    <br>
+                    </p>
+                    <h4 class="mt-4 font-semibold text-teal-600">Tech Stack:</h4>
+                    <ul class="text-left mt-4 ml-8 flex items-center justify-center">
+
+                    <li>Python 3.7 or higher </li>
+                    <li>OpenCV </li>
+                    <li>MediaPipe </li>
+                    <li>Pycaw </li>
+                    <li>NumPy </li>
+                    <li>Comtypes </li>
+                    
+                    </ul>
+                    
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-blue-500 text-white text-center py-8">
+      <div class="container mx-auto">
+          <p class="text-sm">© 2025 Sourajeet | Web Developer</p>
+          <div class="mt-4 space-x-6">
+              <a href="https://www.linkedin.com" class="hover:text-teal-200" target="_blank" aria-label="LinkedIn">
+                  <i class="fab fa-linkedin-in"></i> LinkedIn
+              </a>
+              <a href="mailto:fake@example.com" class="hover:text-teal-200" aria-label="Email">
+                  <i class="fas fa-envelope"></i> Email
+              </a>
+              <a href="tel:+1234567890" class="hover:text-teal-200" aria-label="Phone">
+                  <i class="fas fa-phone-alt"></i> Contact No
+              </a>
+              <a href="https://wa.me/1234567890" class="hover:text-teal-200" target="_blank" aria-label="WhatsApp">
+                  <i class="fab fa-whatsapp"></i> WhatsApp
+              </a>
+              <a href="https://www.instagram.com" class="hover:text-teal-200" target="_blank" aria-label="Instagram">
+                  <i class="fab fa-instagram"></i> Instagram
+              </a>
+          </div>
+      </div>
+  </footer>
+
+  <!-- Add Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
